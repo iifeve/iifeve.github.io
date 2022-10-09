@@ -1,3 +1,7 @@
+---
+layout: post
+title: You're up and running!
+---
 # 遇到的报错
 
 <br/>
