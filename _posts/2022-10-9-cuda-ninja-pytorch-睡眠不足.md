@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: cuda|ninja|pytorch|睡眠不足!
 ---
 # 遇到的报错
 
