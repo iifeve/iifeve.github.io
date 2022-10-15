@@ -1,6 +1,8 @@
 ---
 layout: post
 title: cuda|ninja|pytorch|睡眠不足!
+mathjax: true # false (default), true
+mathjax_autoNumber: true # false (default), true
 ---
 ## 遇到的报错
 
