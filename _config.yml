@@ -1,126 +1,225 @@
-# main text of home
-title: iif_github
-bio: A Person who lives a life before he dies
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+#
+# ,--------.      ,--.   ,--. ,--.
+# '--.  .--',---.  \  `.'  /,-'  '-.
+#    |  |  | .-. :  .'    \ '-.  .-'
+#    |  |  \   --. /  .'.  \  |  |
+#    `--'   `----''--'   '--' `--'
 
-# twitter summary info
-description: A blog about technology and stuff related
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/profile.png
 
-# your site color theme, true for dark theme, 
-# false to light theme, auto to switch with system.
-dark-theme: auto
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: false
-resume-url: https://google.com/?q=my+resume
+## => Site Settings
+##############################
+text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
+url     : https://iifeve.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
+baseurl :  # does not include hostname
+title   : iif_write_down
+description: > # this means to ignore newlines until "Language & timezone"
+  A man who lives before he died
 
-url: https://iifeve.github.io/
-# your url: https://iifeve.github.io/
 
-permalink: /:title/
+## => Language and Timezone
+##############################
+lang: zh-Hans# the language of your site, default as "en"
+timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
 
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+## => Author and Social
+##############################
+author:
+  type      : # "person" (default), "organization"
+  name      : Your Name
+  url       :
+  avatar    : # path or url of avatar image (square)
+  bio       : I am an amazing person.
+  email     :
+  facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
+  twitter   : # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
+  weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
+  googleplus: # "user_id"   the last part of your profile url, e.g. https://plus.google.com/u/0/user_id
+  telegram  : # "user_name" the last part of your profile url, e.g. https://t.me/user_name
+  medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
+  zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
+  douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
+  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  github    : # "user_name" the last part of your profile url, e.g. https://github.com/user_name
+  npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
-# if you don't have any of social below, comment the line
-facebook: 
-twitter: 
-instagram: 
-linkedin: 
-github: mygithub
-email: 
 
-authors:
-  johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
-    external-image: false
-    picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
+## => GitHub Repository (if the site is hosted by GitHub)
+##############################
+repository: user_name/repo_name
+repository_tree: master
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
 
-# if you do/don't need pagination, toggle 'enabled' between true/false below
-pagination:
-  enabled: true
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 7
-  permalink: "/:num/" # pagination link that will be appended
+## => Paths
+##############################
+paths:
+  root    : # title link url, "/" (default)
+  home    : # home layout url, "/" (default)
+  archive : # "/archive.html" (default)
+  rss     : # "/feed.xml" (default)
 
-# if you don't need projects, comment the *projects* configs below
-projects: false
 
-# if you don't need "about" or "blog", comment them out below
-about: true
-blog: true
+## => Post
+##############################
+## excerpt
+excerpt_separator: <!--more-->
 
-# do you want to show the "read time" of the posts?
-read-time: true
+## license
+license: CC-BY-NC-4.0 # "CC-BY-4.0", "CC-BY-SA-4.0", "CC-BY-NC-4.0", "CC-BY-ND-4.0"
 
-# do you want to show the "tags" inside the posts?
-show-tags: true
+## TOC
+toc:
+  selectors: # "h1,h2,h3" (default)
 
-# related posts inside a post?
-related: true
 
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
+## => Markdown Enhancements
+##############################
+## Mathjax
+mathjax: # false (default), true
+mathjax_autoNumber: # false (default), true
 
-# show author block at the end of a post ?
-show-author: true
+## Mermaid
+mermaid: # false (default), true
 
-# do you want some animations?
-animation: true
+## Chart
+chart: # false (default), true
 
-# add default values to specific pages or layouts
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-paginate-v2
+## => Paginate
+##############################
+paginate: 8
+paginate_path: /page:num # don't change this unless for special need
 
-compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
+
+## => Sources
+##############################
+sources: # bootcdn (default), unpkg
+
+
+## => Sharing
+##############################
+sharing:
+  provider: false # false (default), "addtoany", "addthis", "custom"
+
+  ## AddThis
+  addthis:
+    id: # AddThis pubid, e.g. ra-5xxxxxxxxxxx
+
+
+## => Comments
+##############################
+comments:
+  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+
+  ## Disqus
+  disqus:
+    shortname: # the Disqus shortname for the site
+
+  ## Gitalk
+  # please refer to https://github.com/gitalk/gitalk for more info.
+  gitalk:
+    clientID    : # GitHub Application Client ID
+    clientSecret: # GitHub Application Client Secret
+    repository  : # GitHub repo
+    owner       : # GitHub repo owner
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      # - your GitHub Id
+
+  ## Valine
+  # please refer to https://valine.js.org/en/ for more info.
+  valine:
+    app_id      : # LeanCloud App id
+    app_key     : # LeanCloud App key
+    placeholder : # Prompt information
+    visitor     : # false (default)
+    meta        : # "[nick, mail, link]" (default) nickname, E-mail, Personal-site
+
+
+## => Pageview
+##############################
+pageview:
+  provider: false # false (default), "leancloud", "custom"
+
+  ## Leancloud
+  leancloud:
+    app_id    : # LeanCloud App id
+    app_key   : # LeanCloud App key
+    app_class : # LeanCloud App class
+
+
+## => Search
+##############################
+search:
+  provider: default # "default" (default), false, "google", "custom"
+
+  ## Google Custom Search Engine
+  google:
+    custom_search_engine_id: # Google Custom Search Engine ID
+
+
+## => Analytics
+##############################
+analytics:
+  provider: false # false (default), "google", "custom"
+
+  ## Google Analytics
+  google:
+    tracking_id : # Google Analytics id for the site
+    anonymize_ip: false # Anonymize IP tracking for Analytics
+
+
+## => Build
+##############################
+markdown    : kramdown
+highlighter : rouge
+permalink   : date
 
 exclude:
-  [
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "vendor",
-  ]
+  - CHANGELOG.md
+  - HOW_TO_RELEASE.md
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README-*.md
+  - README.md
+  - gulpfile.js
+  - jekyll-text-theme.gemspec
+  - package-lock.json
+  - package.json
+  - /docs
+  - /node_modules
+  - /screenshots
+  - /test
+  - /vendor
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+      sharing: true
+      license: true
+      aside:
+        toc: true
+      show_edit_on_github: true
+      show_subscribe: true
+      pageview: true
+
+
+## => Plugins
+##############################
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jemoji
