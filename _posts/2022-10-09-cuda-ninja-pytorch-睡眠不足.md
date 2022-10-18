@@ -71,3 +71,4 @@ mklink /d "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Comm
 ## 参考
 
 [显卡，显卡驱动,nvcc, cuda driver,cudatoolkit,cudnn到底是什么？](https://zhuanlan.zhihu.com/p/91334380)
+[VS2019+CUDA10.1 新建项目里没有CUDA选项](https://blog.csdn.net/weixin_39591031/article/details/124462430)
