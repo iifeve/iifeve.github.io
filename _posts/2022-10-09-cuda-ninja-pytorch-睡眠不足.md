@@ -66,7 +66,17 @@ mklink /d "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Comm
   ```
   devenv /updateconfiguration
   ```
+## 找不到torch extension和ATen这两个库
 
+libtorch是预编译库，可以不通过安装直接引入。
+
+1. [下载libtorch](https://pytorch.org/get-started/locally/)，注意，不是pytorch，选择如下：
+   
+   [图片](https://img2022.cnblogs.com/blog/1603920/202208/1603920-20220808165421957-503784113.png)
+2. 设置环境变量
+3. 对vs进行配置
+4. 重启激活环境变量
+[参考教程](https://www.cnblogs.com/yanshw/p/16562659.html)
 
 ## 参考
 
