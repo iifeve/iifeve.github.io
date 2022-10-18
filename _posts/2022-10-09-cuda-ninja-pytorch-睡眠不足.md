@@ -44,6 +44,30 @@ mathjax_autoNumber: true # false (default), true
 
 在配置的时候可以同时安装多个版本，为了应付报错
 
+## CUDA不在vs的项目模板中
+
+首先找到cuda的项目模板，将该项目模板通过软链接的方式链接到vs的安装目录中，具体位置是`E:\Environment\Microsoft_Visual_studio\Common7\IDE\Extensions\NVIDIA\CUDA 11.3 Wizards`
+
+这个可能是因为2019独立安装在E盘，所以路径比较奇怪，一般来说安装目录是`C:\Program Files (x86)\Microsoft Visual Studio\2019`
+
+最后更新VS程序的环境
+
+- 如何进行软链接：
+  
+  在Developer Command Prompt for VS 2019(就是2019的cmd)中使用命令
+
+```
+mklink /d "C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\NVIDIA\CUDA 11.3 Wizards\11.3" "C:\ProgramData\NVIDIA GPU Computing Toolkit\v11.3\extras\visual_studio_integration\CudaProjectVsWizards\15"
+```
+
+- 如何进行环境的更新：
+  
+  在cmd中运行
+  ```
+  devenv /updateconfiguration
+  ```
+
+
 ## 参考
 
 [显卡，显卡驱动,nvcc, cuda driver,cudatoolkit,cudnn到底是什么？](https://zhuanlan.zhihu.com/p/91334380)
