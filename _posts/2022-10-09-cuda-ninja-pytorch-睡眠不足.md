@@ -44,6 +44,23 @@ mathjax_autoNumber: true # false (default), true
 
 在配置的时候可以同时安装多个版本，为了应付报错
 
+##在虚拟环境中安装多个cuda版本
+首先查找pytorch与cuda之间的对应关系
+1.这里[pytorch和cudatoolkit版本对应关系](https://pytorch.org/get-started/previous-versions/)
+
+2.[cudatoolkit版本和系统cuda对应关系](https://www.zhihu.com/question/344950161/answer/818139888)
+
+3.[系统cuda和nvidia对应关系](https://blog.csdn.net/He_9520/article/details/100032803)
+
+4.cuda和cuDNN的关系和对应关系：
+  -[link1](https://www.jianshu.com/p/622f47f94784)
+  -[link2](https://www.cnblogs.com/yeran/p/11345990.html)
+
+
+cuda toolkit，cudnn可以在conda环境中安装多个版本
+但是cuda不行，所以要安装多个版本，通过[配置环境变量来使用不同的版本](https://www.cnblogs.com/yhjoker/p/10972795.html)
+
+
 ## CUDA不在vs的项目模板中
 
 首先找到cuda的项目模板，将该项目模板通过软链接的方式链接到vs的安装目录中，具体位置是`E:\Environment\Microsoft_Visual_studio\Common7\IDE\Extensions\NVIDIA\CUDA 11.3 Wizards`
