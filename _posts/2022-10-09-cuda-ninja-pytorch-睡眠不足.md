@@ -44,7 +44,7 @@ mathjax_autoNumber: true # false (default), true
 
 在配置的时候可以同时安装多个版本，为了应付报错
 
-##在虚拟环境中安装多个cuda版本
+## 在虚拟环境中安装多个cuda版本
 首先查找pytorch与cuda之间的对应关系
 1.这里[pytorch和cudatoolkit版本对应关系](https://pytorch.org/get-started/previous-versions/)
 
