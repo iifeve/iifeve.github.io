@@ -4,7 +4,7 @@ tags: TeXt
 article_header:
   type: cover
   image:
-    src: [/screenshot.jpg](https://i0.wp.com/varhowto.com/wp-content/uploads/2020/05/How-to-Install-ROS-Noetic-on-Ubuntu-20.04.png?w=1199&ssl=1)
+    src: https://i0.wp.com/varhowto.com/wp-content/uploads/2020/05/How-to-Install-ROS-Noetic-on-Ubuntu-20.04.png?w=1199&ssl=1
 ---
 
 # ros 版本选择
