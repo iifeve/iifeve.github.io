@@ -1,6 +1,6 @@
 ---
 layout: post
-title: cuda|ninja|pytorch|睡眠不足!
+title: Pandas & seaborn：数据统计与画图
 mathjax: true # false (default), true
 mathjax_autoNumber: true # false (default), true
 ---
