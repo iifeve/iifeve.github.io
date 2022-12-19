@@ -49,7 +49,7 @@ sns.set(context='notebook', style='darkgrid', palette='deep', font='sans-serif',
 sns.jointplot(x='recall', y='precision', data=r_p, fill=True, levels=5, kind='kde')
 ```
 绘图结果：
-![c28bc5a7bb4ecc4f98ece762e4023e0b.png](:/d29f461450d141a2b9b2a13a0a221b3c)
+![c28bc5a7bb4ecc4f98ece762e4023e0b.png](:/assets/images/image.png)
 jointplot并非figure级接口，支持 kind= 参数指定绘制出不同样式的分布图。
 在kind下可以使用对应的参数。
 - 可以在[这个link](https://seaborn.pydata.org/examples/index.html)找到找到想要画的样式，然后进行绘制
