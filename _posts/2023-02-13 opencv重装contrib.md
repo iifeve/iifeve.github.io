@@ -1,6 +1,6 @@
 ---
 title:opencv重装contrib
-tags:opencv
+tags: opencv
 article_header:
   type: cover
   image:
