@@ -1,8 +1,10 @@
 ---
-layout: post
 title: Pandas & seaborn：数据统计与画图
-mathjax: true # false (default), true
-mathjax_autoNumber: true # false (default), true
+tags: 数据分析
+article_header:
+  type: cover
+  image:
+    src: https://miro.medium.com/v2/resize:fit:720/format:webp/1*gM_WIfx7MXOO7jzsPm-Y0Q.png
 ---
 #  [pandas](https://geek-docs.com/pandas/pandas-tutorials/pandas-tutorial.html)
 ## 主要数据结构
