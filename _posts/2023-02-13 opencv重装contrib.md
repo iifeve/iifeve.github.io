@@ -1,10 +1,10 @@
 ---
-title: opencv重装contrib
-tags: opencv
+title:opencv重装contrib
+tags:opencv
 article_header:
   type: cover
   image:
-    src: https://yan-wyb.com/assets/images/prog-lang/c++/opencv-title.png
+    src:https://yan-wyb.com/assets/images/prog-lang/c++/opencv-title.png
 --
 
 ### opencv安装contirb
