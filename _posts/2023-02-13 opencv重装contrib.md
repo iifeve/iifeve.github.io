@@ -1,10 +1,4 @@
 ---
-layout: post
-title: opencv重装contrib
-mathjax: true # false (default), true
-mathjax_autoNumber: true # false (default), true
----
----
 title: opencv重装contrib
 tags: opencv
 article_header:
