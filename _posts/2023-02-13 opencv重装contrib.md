@@ -5,7 +5,7 @@ article_header:
   type: cover
   image:
     src:https://yan-wyb.com/assets/images/prog-lang/c++/opencv-title.png
---
+---
 
 ### opencv安装contirb
 
